@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+main{
+    width: 100%;
+    height: 100%;
+    background-color:#434242;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 3%;
+    background-color:black;
+
+}
+nav span{
+    color: white;
+}
+nav h1{
+    color:#E1AD01;
+
+}
+
+.nav-link ul {
+    display: flex;
+    list-style-type: none ;
+}
+
+.nav-link li a {
+
+    text-decoration: none;
+    color:  #CF0A0A;
+    margin: 0 15px;
+}
+.main-page{
+    padding:3%;
+}
+.row{
+    display: flex;
+}
+.col-1{
+    flex-basis: 60%;
+}
+.col-1 h1{
+    margin-top: 250px;
+}
+
+
+.col-2 img{
+    width: 400px;
+    border: 10px solid black;
+
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3%;
+}
+footer h3 {
+margin-bottom: 15px;
+}
+.footerline {
+    width: 100%;
+    height: 2px;
+    background-color:white;
+}
+.contact {
+    width: 100%;
+    height: 100px;
+    
+}
+.contact-container{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:#434242;
+   
+}
+.contact h1 {
+    margin-top: 60px;
+}
+.contact-container form {
+  border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: radius 15px;
+    gap: 10px;
+width: 350px;
+align-items: center;
+}
+.contact-container form input {
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    width: 320px;
+    
+}
+.contact-container textarea {
+    padding:none;
+    border:none ;
+    outline: none;
+    border-radius: 10px;
+    border-radius: 10px;
+    width: 320px;}
+.contact-container form button {
+  padding: 10px 15px;
+    border: none;
+    background-color: #E1AD01;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 320px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 3%;
+    background-color:black;
+
+}
+nav h1{ 
+    color:#E1AD01
+}
+
+.family{
+    margin-top: 30px;
+}
